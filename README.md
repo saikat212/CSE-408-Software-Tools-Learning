@@ -6,3 +6,7 @@ Learning Together -- Used to Git and Github
 ## Learning Outcome : 
 -- Collaborative Github/Git Practice
 
+Initial Step :
+1. Clone this repo
+2. Create your own branch 
+3. 
