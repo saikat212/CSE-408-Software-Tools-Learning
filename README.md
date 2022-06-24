@@ -28,7 +28,8 @@ Initial Step :
 # Update From Sakib
 
 ### React command
-npm install @mui/material @emotion/react @emotion/styled
-npm install @mui/icons-material
+- npm install @mui/material @emotion/react @emotion/styled
+
+- npm install @mui/icons-material
 
 # Update From RIDI
