@@ -15,14 +15,13 @@ Initial Step :
 
 ## Github Docs
 - All document with pictorial examples.
-[click here to get content link ](https://docs.github.com/en/get-started/quickstart/github-flow)
+[https://docs.github.com/en/get-started/quickstart/github-flow](https://docs.github.com/en/get-started/quickstart/github-flow)
 
 - Project management related docs part .
-[click here to get content link ](https://docs.github.com/en/issues/guides)
+[https://docs.github.com/en/issues/guides ](https://docs.github.com/en/issues/guides)
 
 ## A Good Slide 
-###### Organized Slide from Academic Course ( Information System Design , BUET CSE )
--
+- Organized Slide from Academic Course ( Information System Design , BUET CSE ) . 
 [slide link](https://docs.google.com/presentation/d/1gKj30k_fpNk-U4FozyUhxcfZqWG9HTtv/edit#slide=id.p1)
 
 
