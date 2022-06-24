@@ -14,9 +14,11 @@ Initial Step :
 # Update From Saikat
 
 ## Github Docs
-###### Very organised document with pictorial examples.
--
+- All document with pictorial examples.
 [click here to get content link ](https://docs.github.com/en/get-started/quickstart/github-flow)
+
+- Project management related docs part .
+[click here to get content link ](https://docs.github.com/en/issues/guides)
 
 ## A Good Slide 
 ###### Organized Slide from Academic Course ( Information System Design , BUET CSE )
