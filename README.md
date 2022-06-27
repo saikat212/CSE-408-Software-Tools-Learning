@@ -33,4 +33,6 @@ Initial Step :
 
 - npm install @mui/icons-material
 
+- npm i @types/jest @types/node @types/react @types/react-dom @types/react-router-dom typescript
+
 # Update From RIDI
