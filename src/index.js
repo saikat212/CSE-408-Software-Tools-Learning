@@ -11,8 +11,6 @@ import Pricing from './DC/pricing/Pricing';
 import Centers from './DC/Centers/centers';
 
 
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
