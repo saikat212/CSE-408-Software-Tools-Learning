@@ -20,6 +20,11 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import AppBar from './AppBar';
 import DClogo from './../images/DClogo.png'
 
+import TestSelectCheckmarks from './testList';
+import RemoteTestSelectChip from './RemoteTestList';
+
+
+
 
 function Copyright(props) {
   return (
@@ -78,25 +83,15 @@ export default function SignUp() {
           </Typography>
           <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
             <Grid container spacing={2}>
-              <Grid item xs={12} sm={6}>
+              <Grid item xs={12}>
                 <TextField
                   autoComplete="given-name"
                   name="firstName"
                   required
                   fullWidth
                   id="firstName"
-                  label="First Name"
+                  label="Name"
                   autoFocus
-                />
-              </Grid>
-              <Grid item xs={12} sm={6}>
-                <TextField
-                  required
-                  fullWidth
-                  id="lastName"
-                  label="Last Name"
-                  name="lastName"
-                  autoComplete="family-name"
                 />
               </Grid>
 
@@ -135,19 +130,58 @@ export default function SignUp() {
               </Grid>
 
               <Grid item xs={12}>
+                <TextField
+                  autoComplete="given-Number"
+                  name="certificationNumber"
+                  required
+                  fullWidth
+                  id="certificationNumber"
+                  label="Certification Number"
+                  autoFocus
+                />
+              </Grid>
+
+              <Grid item xs={12}>
+                <TextField
+                  autoComplete="given-name"
+                  name="location"
+                  required
+                  fullWidth
+                  id="location"
+                  label="Location"
+                  autoFocus
+                />
+              </Grid>
+
+              <Grid item xs={12}>
               <FormControl>
-              <FormLabel id="demo-radio-buttons-group-label">Gender</FormLabel>
+              <FormLabel id="demo-radio-buttons-group-label">Provide report home delivery? </FormLabel>
               <RadioGroup
                 aria-labelledby="demo-radio-buttons-group-label"
-                defaultValue="male"
+                defaultValue="no"
                 name="radio-buttons-group"
               >
-              <FormControlLabel value="male" control={<Radio />} label="Male" />
-              <FormControlLabel value="female" control={<Radio />} label="Female" />
-              <FormControlLabel value="other" control={<Radio />} label="Other" />
+              <FormControlLabel value="yes" control={<Radio />} label="Yes" />
+              <FormControlLabel value="no" control={<Radio />} label="No" />
               </RadioGroup>
               </FormControl>
               </Grid>
+
+              <Grid item xs={12}>
+              <Typography>
+              Select Diagnostic Tests you offer
+              </Typography>
+              <TestSelectCheckmarks />
+              </Grid>
+
+              <Grid item xs={12}>
+              <Typography>
+              Select Remote Tests you offer
+              </Typography>
+              <RemoteTestSelectChip />
+              </Grid>
+
+
 
               <Grid item xs={12}>
                 <FormControlLabel

@@ -19,7 +19,6 @@ root.render(
     <Dashboard />
     <SignUp />
     <SignIn />
-    <Pricing />
     <Checkout />
     <Centers />
    
