@@ -1,4 +1,4 @@
-# CSE-408-Software-Tools-Learning-
+# Software Engineering Tools Learning
 Learning Together -- Used to Git and Github 
 
 ## We will update in this file with info . 
